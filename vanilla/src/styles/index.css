@@ -563,6 +563,36 @@ video {
   font-weight: 700;
 }
 
+.text-nasa-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-nasa-black-primary {
+  --tw-text-opacity: 1;
+  color: rgb(141 151 151 / var(--tw-text-opacity, 1));
+}
+
+.text-nasa-black-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(78 84 92 / var(--tw-text-opacity, 1));
+}
+
+.text-nasa-red {
+  --tw-text-opacity: 1;
+  color: rgb(142 22 22 / var(--tw-text-opacity, 1));
+}
+
+.text-nasa-red-primary {
+  --tw-text-opacity: 1;
+  color: rgb(216 64 64 / var(--tw-text-opacity, 1));
+}
+
+.text-nasa-red-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(29 22 22 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
 }
