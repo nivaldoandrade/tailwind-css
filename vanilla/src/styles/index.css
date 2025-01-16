@@ -596,3 +596,19 @@ video {
 .underline {
   text-decoration-line: underline;
 }
+
+.card {
+  margin-top: 1rem;
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.125rem;
+  border-width: 1px;
+  background-image: linear-gradient(
+		#D84040,
+		#8d9797
+	);
+}

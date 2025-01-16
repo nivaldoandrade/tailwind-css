@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+	@apply w-40 h-40 border rounded-sm mt-4 flex flex-col items-center justify-center;
+
+	background-image: linear-gradient(
+		theme('colors.nasa.red.primary'),
+		theme('colors.nasa.black.primary')
+	);
+}
