@@ -10,3 +10,9 @@
 		theme('colors.nasa.black.primary')
 	);
 }
+
+@media screen(md) { 
+  body {
+		background-color: theme('colors.red.100');
+ }
+}
